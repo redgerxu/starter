@@ -24,6 +24,10 @@ require("lazy").setup({
       require "options"
     end,
   },
+  {
+    "andweeb/presence.nvim",
+    lazy = false
+  },
 
   { import = "plugins" },
 }, lazy_config)
